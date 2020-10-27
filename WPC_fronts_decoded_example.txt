@@ -1,0 +1,72 @@
+CODED SURFACE FRONTAL POSITIONS FORECAST
+NWS WEATHER PREDICTION CENTER COLLEGE PARK MD
+314 AM EDT SAT AUG 19 2012
+
+SURFACE PROG VALID 201104081800Z
+HIGHS 1025 4040702 1013 5840947 1018 5091116 1020 2940837
+LOWS 1015 5230774 1011 3910826 998 3981047
+WARM 3910826 3840823 3770813 3650804 3590788 3580776 3510765
+3500750 3440740 3400731
+TROF 5230772 5100755 4850740
+COLD 5830871 5690888 5620910 5610935 5630953
+OCFNT 5450915 5300906 5050907 4850918 4670935 4560949 STNRY 4880910 4820932 4790950 4810970 4780984 4701002 4671022
+4581039 4561044
+TROF 3710978 3600982 3480992 3340997 3160995 3010998 2941004
+2891012
+....
+
+ 
+Decoded Forecast Bulletin
+ 
+CODED SURFACE FRONTAL POSITIONS FORECAST
+NWS WEATHER PREDICTION CENTER CAMP SPRINGS MD
+314 AM EDT FRI APR 08 2011
+ 
+The header for the coded bulletin. It provides the latest update time of the product.
+ 
+ 
+SURFACE PROG VALID 201104081800Z
+ 
+The valid time of the forecast in the format "YYYYMMDDHH00Z" where:
+YYYY is the four-digit year
+MM is the two-digit month - example: 04 is April
+DD is the two-digit day - example: 08 is the 8th day of the month
+HH is the two-digit hour - example: 1800 which stands for 1800Z or 1800 UTC
+Note that the Z at the end indicates that this is Zulu or UTC time.
+ 
+HIGHS 1025 4040702 1013 5840947 1018 5091116 1020 2940837
+ 
+Describes the strength and location of high pressure centers. The first value is the central pressure in millibars. The second value is the location of the feature in latitude and longitude precise to the tenths of a degree. In the example above,
+1025 4040702 - This is a 1025 millibar (mb) high centered at 40.4 degrees North (N), 70.2 degrees West (W).
+1013 5840947 - A 1013 mb high centered at 58.4N 94.7W.
+1018 5091116 - A 1018 mb high centered at 50.9N 111.6W.
+1020 2940837 - A 1020 mb high centered at 29.4N 83.7W.
+ 
+LOWS 1015 5230774 1011 3910826 998 3981047
+ 
+Describes the strength and location of low pressure centers. In this example,
+1015 5230774 - This is a 1015 mb low centered at 52.3N 77.4W.
+1011 3910826 - A 1011 mb low centered at 39.1N 82.6W.
+998 3981047 - A 998mb low centered at 39.8N 104.7W.
+ 
+The remainder of the message provides the location of all fronts and troughs in latitude and longitude. An example of each is provided below.
+ 
+WARM 3910826 3840823 3770813 3650804 3590788 3580776 3510765
+3500750 3440740 3400731
+This is a warm front extending from 39.1N 82.6W through 38.4N 82.3W, 37.7N 81.3W, 36.5N 80.4W, 35.9N 78.8W, 35.8N 77.6W, ending at 35.1N 76.5W.
+TROF 5230772 5100755 4850740
+This is a trough extending from 52.3N 77.2W through 51.0N 75.5W, ending at 48.5N 74.0W.
+COLD 5830871 5690888 5620910 5610935 5630953
+This is a cold front extending from 58.3N 87.1W through 56.9N 88.8W, 56.2N 91.0W, 56.1N 93.5W, ending at 56.3N 95.3W.
+OCFNT 5450915 5300906 5050907 4850918 4670935 4560949
+This is an occluded front extending from 54.5N 91.5W through 53.0N 90.6W, 50.5N 90.7W, 48.5N 91.8W, 46.7N 93.5W, ending at 45.6N 94.9W.
+STNRY 4880910 4820932 4790950 4810970 4780984 4701002 4671022
+4581039 4561044
+This is a stationary front extending from 48.8N 91.0W through 48.2N 93.2W, 47.9N 95.0W, 48.1N 97.0W, 47.8N 98.4W, 47.0N 100.2W, ending at 46.7N 102.2W.
+All possible frontal types are provided in the table below.
+Frontal Type
+WARM - warm front
+COLD - cold front
+STNRY - stationary front
+OCFNT - occluded front
+TROF - can represent a trough, outflow boundary, squall line, or dry line
