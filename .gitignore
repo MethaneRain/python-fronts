@@ -1,3 +1,6 @@
 
 .DS_Store
 .ipynb_checkpoints/WPC_Fronts_decode_example-checkpoint.ipynb
+.ipynb_checkpoints/WPC_HiLo_decode-checkpoint.ipynb
+scripts/__pycache__/hilo_parse.cpython-37.pyc
+scripts/__pycache__/create_map.cpython-37.pyc
